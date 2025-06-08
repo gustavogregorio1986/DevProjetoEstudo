@@ -8,6 +8,11 @@ namespace AddTwoNumbrs.Dominio
 {
     public class Valor
     {
-        public List<int> ListaNumeros { get; set; } = new();
+        public List<int> ListaNumeros { get; set; }
+
+        public override string ToString()
+        {
+            return $"[{string.Join(", ", ListaNumeros)}]";
+        }
     }
 }
