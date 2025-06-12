@@ -11,6 +11,8 @@ namespace PalindromeNumber
             Console.WriteLine(solution.IsPalindrome(121));
             Console.WriteLine(solution.IsPalindrome(-121));
             Console.WriteLine(solution.IsPalindrome(10));
+
+            Console.ReadLine();
         } 
     }
 }
